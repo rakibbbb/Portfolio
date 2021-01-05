@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Headings */
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+p{
+    text-align: justify;
+    color: darkslategray;
+}
+
+/* Half Width */
+.half-width{
+    width: 40%;
+    padding-left: 2%;
+    margin-left: 5%;
+    float: left;
+}
+
+.half-width img{
+    width: 100%;
+}
+
+/* Section Part  */
+section{
+    height: 550px;
+}
+
+/* Highlight color  */
+.highlight-color{
+    color: darkorange;
+}
+
+/* Button Link */
+.btn-link{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg,cyan, darkcyan);
+    font-weight: 700;
+    color: black;
+}
+
+.btn-link:hover{
+    background-image: linear-gradient(45deg, rgb(17, 197, 107), rgb(163, 224, 48));
+    color: blanchedalmond;
+}
+
+/* Top Section  */
+.top-section{
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.img-pos{
+    margin-top: 3%;
+}
+
+/* Middle Section  */
+.mid-section{
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* Bottom Section  */
+.bottom-section{
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.bottom-section h1{
+    text-align: center;
+}
+
+.same-box{
+    height: 60%;
+    border-left: 7px solid;
+    border-radius: 5px;
+    padding-right: 10px;
+}
+
+#front-end{
+    box-shadow: 10px 10px 40px orange;
+    border-image: linear-gradient(180deg,maroon, orangered);
+    border-image-slice: 1;
+}
+
+#newbie{
+    box-shadow: 10px 10px 40px darkblue;
+    border-image: linear-gradient(180deg, cyan, darkcyan);
+    border-image-slice: 1;
+    color: ;
+}
+
+/* Footer Section  */
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
